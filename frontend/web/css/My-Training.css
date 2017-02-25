@@ -1,0 +1,311 @@
+
+
+/*左侧固定的导航栏*/
+.nav{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 145px;
+  background: rgb(46, 61, 73);
+  z-index: 11;
+}
+
+.nav .logo{
+  
+}
+
+.nav .logo a{
+  
+  height: 90px;
+  background-color: #1c262f;
+  background-image: url(../img/header-logo.png);
+  background-size: 100% 100%;
+}
+
+#nav-in-default{
+  opacity: 1;
+}
+
+.nav .list{
+  height: 20px;
+}
+
+.nav .nav-top-list li,.nav .nav-bottom-list li{
+  padding: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav .nav-top-list span,.nav .nav-bottom-list span{
+  opacity: 0.5;
+  font-weight: 600;
+  color: #fff;
+}
+
+.nav .nav-top-list li:hover >span,.nav .nav-bottom-list li:hover >span {
+  opacity: 1;
+}
+
+.nav .nav-bottom-list {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+}
+
+/*头部固定的header*/
+.header{
+  width: 100%;
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 7.5%;
+  height: 90px;
+  box-shadow: inset 0 0 0 0 #dbe2e8,0 2px 1px 0 rgba(47,61,73,.2);
+  z-index: 10;
+}
+
+.header div p{
+  color: #000;
+  font-family: "楷体";
+  font-size: 18px;
+  padding-left: 20px;
+  line-height: 68px;
+}
+
+
+/*设置续费界面*/
+#set-list-default{
+  background: rgb(2, 204, 186);
+  color: rgb(255, 255, 255);
+}
+
+.set-renew {
+  margin-top: 68px;
+  margin-left: 18%;
+  background-color: #fafafa;
+ 
+}
+
+.set-renew .box {
+  width: 80%;
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+.set-renew .box p {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.set-renew .box li {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.set-renew .set-left{
+  width: 25%;
+  padding: 0 1%;
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+}
+
+.set-renew .set-left .top{
+  margin-bottom: 50px;
+}
+
+/*基本信息的div*/
+.set-renew .set-right .inform{
+  position: relative;
+  width: 60%;
+  padding: 40px;
+  border: solid 1px #dbe2e8;
+  float: right;
+  /*display: none;*/
+  background-color: #fff;
+}
+
+.set-renew .set-right .inform input[type="text"] {
+  width: 42%;
+  height: 40px;
+  margin: 2%;
+  padding-left: 2%; 
+  border: 1px solid #dbe2e8;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.set-renew .set-right .inform input[type="checkbox"] {
+  border: 1px solid #dbe2e8;
+  margin-left: 2%;
+}
+
+.set-renew .set-right .inform label {
+  width: 100px;
+  font-family: "宋体";
+  font-size: 12px;
+  font-weight: 100px;
+}
+
+.set-renew .set-right .btn {
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+}
+
+.set-renew .set-right .btn button {
+  width: 138px;
+  height: 43px;
+  border: 1px solid #02b3e4;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.set-renew .set-right .btn button:nth-of-type(2) {
+  background-color: #039dc7;
+  color: #fff;
+}
+
+/*更改密码div*/
+.set-renew .set-right .change-psw {
+  position: relative;
+  width: 60%;
+  padding: 40px;
+  border: solid 1px #dbe2e8;
+  float: right;
+  display: none;
+  background-color: #fff;
+}
+
+.set-renew .set-right .change-psw input[type="text"] {
+  width: 60%;
+  height: 40px;
+  margin: 2%;
+  padding-left: 2%; 
+  border: 1px solid #dbe2e8;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+/*绑定账号*/
+.set-renew .set-right .bind {
+  position: relative;
+  width: 60%;
+  padding: 40px;
+  border: solid 1px #dbe2e8;
+  float: right;
+  display: none;
+  background-color: #fff;
+}
+
+.set-renew .set-right .bind p {
+  border-bottom: 1px solid #dbe2e8;
+}
+
+.set-renew .set-right .bind a {
+  float: right;
+  font-weight: bold;
+  color: #039dc7;
+}
+
+.set-renew .set-right .bind a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.set-renew .set-right .bind div {
+  padding: 5px;
+  text-align: center;
+}
+
+/*更改语言*/
+.set-renew .set-right .language {
+  position: relative;
+  width: 60%;
+  padding: 40px;
+  border: solid 1px #dbe2e8;
+  float: right;
+  display: none;
+  background-color: #fff;
+}
+
+.set-renew .set-right .language select {
+  width: 250px;
+  height: 40px;
+  border: 1px solid #dbe2e8;
+}
+
+/*纳米学位*/
+.set-renew .set-right .degree {
+  position: relative;
+  width: 60%;
+  padding: 40px;
+  border: solid 1px #dbe2e8;
+  float: right;
+  display: none;
+  background-color: #fff;
+}
+
+.set-renew .set-right .degree .top {
+  padding: 20px 30px;
+  border: 1px solid #dbe2e8;
+}
+
+.set-renew .set-right .degree .top p {
+  font-weight: lighter;
+  color: #039dc7;
+}
+
+.set-renew .set-right .degree .top li {
+  font-size: 12px;
+}
+
+.set-renew .set-right .degree > p {
+  padding: 30px 0;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.set-renew .set-right .degree .bottom {
+  padding: 20px 30px;
+  border: 1px solid #dbe2e8;
+}
+
+.set-renew .set-right .degree .bottom h3 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.set-renew .set-right .degree .bottom a {
+  color: #039dc7;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*单项课程*/
+.set-renew .set-right .course {
+  position: relative;
+  width: 60%;
+  padding: 40px;
+  border: solid 1px #dbe2e8;
+  float: right;
+  display: none;
+  background-color: #fff;
+}
+
+.set-renew .set-right .course button {
+  width: 138px;
+  height: 43px;
+  border: 0;
+  background-color: #02b3e4;
+  color: #fff;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}

@@ -1,0 +1,65 @@
+.container {
+  max-width: 75em;
+  margin: 0 auto;
+}
+/*头部*/
+.public-header{
+  height: 100px;
+}
+
+.public-header .header-logo{
+  width: 145px;
+  height: 90px;
+  float: left;
+  background-image: url(../img/header-logo.png);
+}
+
+.public-header .login{
+  float: right;
+  margin-top: 30px;
+}
+
+.public-header .login a{
+  float: left;
+  width: 108px;
+  height: 40px;
+  outline: 0;
+  border: 0;
+  font-size: 12px;
+  margin-left: 20px;
+  border-radius: 3px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.public-header .login .signup-btn{
+  background-color: rgb(2,179,228);
+}
+
+.public-header .login .signin-btn{
+  background-color: rgb(96,126,151);
+}
+/*尾部*/
+
+.public-footer{
+  height: 200px;
+  background: #ccc;
+}
+
+.public-footer .footer-QRcode{
+  background-image: url(../img/login-logo.jpg);
+}
+
+.public-footer .footer-content{
+  padding-top: 30px;
+}
+
+.public-footer .information{
+  float: right;
+}
+
+.public-footer .information a{
+  display: inline-block;
+  margin-top: 10px;
+}

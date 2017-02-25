@@ -1,0 +1,248 @@
+body,div,dl,dt,ul,li,ol,h1,h2,h3,h4,h5,h6,input,p,form,textarea{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+ol,ul,li{
+    margin: 10px 20px;
+}
+a{
+    text-decoration: none;
+    color: #3b4249;
+    background: 0 0;
+}
+img{
+    border: none;
+    margin-right: 10px;
+}
+.clearfloat{
+    zoom: 1;
+}
+.clearfloat:after{
+    display: block;
+    clear:both;
+    content:"";
+    visibility: hidden;
+    height: 0;
+}
+.public-header{
+    height: 100px;
+    border-bottom: 1px solid #d8d3d3;
+    margin:0px 200px;
+}
+元素 {
+    margin-bottom: 0;
+}
+.contain.clear.header {
+    padding: 1em 8em;
+}
+.contain {
+    width: auto;
+    height: 100px;
+}
+.logo {
+    float: left;
+    width: 220px;
+}
+body {
+    font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+}
+img {
+    vertical-align: middle;
+}
+hr, img {
+    border: 0;
+}
+img, svg {
+    max-width: 100%;
+}
+nav.main {
+    right: auto;
+    width: 500px;
+    height: 100px;
+    float: right;
+    line-height: 15px;
+    clear: none;
+    position: relative;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 100px;
+}
+nav.main ul.main_nav {
+    width: 100%;
+    list-style-type: none;
+}
+nav.main ul.main_nav li{
+    position: relative;
+    font-size: 26px;
+    float: left;
+    margin: 0px 20px;
+}
+.page-ndop li {
+    color: #525c65;
+}
+header .callout_btn {
+    float: right;
+    width: 10em;
+    margin-left: .75rem;
+    font-weight: 900;
+    font-size: 12px;
+    border: .125rem solid transparent;
+    clear: none;
+}
+.btn, .callout_btn, .more_btn, .primary_btn {
+    letter-spacing: 1.25px;
+}
+.btn, .callout_btn, .more_btn, .primary_btn {
+    display: block;
+    text-align: center;
+    padding: 1em .25em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    /*! font-weight: 600; */
+    /*! font-size: .8125em; */
+    border-radius: .307692308em;
+    background: #02b3e4;
+    max-width: 20em;
+    /*! width: 100%; */
+    /*! border: none; */
+    transition: background .3s ease;
+}
+
+
+
+
+
+.container{
+    width: auto;
+    height:auto;
+}
+.public-footer{
+    width: auto;
+    height: 80px;
+    background-color: lightblue;
+}
+.public-container{
+    width: 1150px;
+    margin:0 auto;
+    position: relative;
+}
+pre {
+    margin: 20px 60px;
+    padding: 10px;
+    border: 1px dotted #785;
+    background: #f5f5f5;
+    color: black;
+}
+.section{
+    border-bottom: 1px solid #C1C6B7;
+    padding: 30px;
+} .title{
+    border-bottom: 1px solid #C1C6B7;
+    margin: 20px auto 0px;
+    font-size: 26px;
+    color: darkslategrey;
+}
+.subheading{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.remarks{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-style: italic;
+    color: #767676;
+    margin-left: 30px;
+}
+.message{
+    line-height: 2em;
+    margin: 0px 30px;
+    font-size: 20px;
+}
+
+.importance{
+	font-size: 18px;
+	font-weight:bold;
+}
+.section a{
+    color: #02b3e4;}
+.wrap {
+    width: auto;
+
+}
+footer {
+    background-color: #cbcdcf;
+    width: auto;
+    overflow: hidden;
+}
+footer {
+    background: #f4f4ef;
+}
+footer .wechat {
+    float: left;
+    padding: 50px 0px 50px 20%;
+}
+.footer-list {
+    float: right;
+    padding: 50px 18% 50px 0px;
+}
+footer ul {
+    font-size: 20px;
+    line-height: 40px;
+    list-style: none;
+    color: #3b4249;
+    float: left;
+    padding: 0px 50px;
+}
+#footer {
+    background-color: #3b4249;
+    width: auto;
+    height: 80px;
+}
+#footer strong {
+    font-weight: normal;
+}
+#footer a {
+    color: #fff;
+    display: inline-block;
+}
+.copyright{
+    height: 80px;
+    line-height:80px;
+    color: white;
+    text-align: center;
+}
+.copyright a{
+    text-decoration: none;
+}
+blockquote, body, button, dd, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, input, keygen, legend, menu, ol, p, pre, select, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-list li a:hover {
+    color: #3879d9;
+}
+blockquote, body, button, dd, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, input, keygen, legend, menu, ol, p, pre, select, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.header-menu-wrapper {
+    padding-top: 20px;
+}
+.header-menu-wrapper .callout_btn {
+    float: right;
+    width: 10em;
+    margin-left: .75rem;
+    font-weight: 900;
+    font-size: 12px;
+    border: .125rem solid #fff;
+    clear: none;
+}
+.callout_btn:hover{
+    background: #028bb1;
+    text-decoration: none;
+    color: #fff;
+}

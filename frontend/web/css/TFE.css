@@ -1,0 +1,487 @@
+/*banner部分*/
+.index-banner{
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.index-banner .lunb-img img{
+  width: 33.333%;
+  height: 500px;
+  display: block;
+  float: left;
+  background-color: #f0f0f0;
+}
+
+.index-banner .lunb-img{
+  width: 300%;
+  height: 500px;
+  position: absolute;
+  left: 0;
+}
+
+.index-banner .lunb-list{
+  position: absolute;
+  bottom: 20px;
+  width: 88px;
+  left: 50%;
+  margin-left: -44px;
+}
+
+.index-banner .lunb-list li{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ccc;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+  line-height: 16px;
+  margin-top: 2px;
+}
+
+/*导航栏*/
+#nav-default {
+  background-color: rgba(2,179,228,1);
+}
+
+.index-nav {
+  height: 50px;
+  background-color: #f0f0f0;
+}
+
+.index-nav .nav-list{
+  width: 580px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.index-nav a{
+  padding: 0 40px;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+  background-color: rgb(2,179,228,0);
+  transition: background-color 0.6s;
+}
+
+.index-nav a:hover{
+  background-color: rgba(2,179,228,1);
+}
+
+/*内容*/
+.index-content {
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+  
+  /*课程概要*/
+  .index-content .content-box{
+    padding: 40px;
+    margin-top: 40px;
+    height: 600px;
+  }
+
+.index-content .content-box > p {
+  font-size: 40px;
+  padding: 0px 200px;
+}
+
+  .content-box .scroll-content{
+    width: 2200px;
+    height: 430px;
+    margin-top: 40px;
+    position: absolute;
+    left: 100px;
+    transition: left 1s;
+  }
+
+  .content-box .scroll-content .text{
+    position: relative;
+    height: 370px;
+    background: #f4f4ef;
+    float: left;
+    padding: 40px;
+    width: 300px;
+    margin-right: 30px;
+    box-shadow: 0 .3125em 1.25em 0 rgba(46,61,73,.12);
+  }
+
+  .content-box .scroll-content .text::before{
+    content: "";
+    width: .25em;
+    position: absolute;
+    top: 2em;
+    left: -.125em;
+    height: 2.25em;
+    background: #cfcaca;
+  }
+
+
+.content-box .scroll-content .text p {
+  font-size: 14px;
+  text-indent: 2em;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  padding-top: 20px;
+  line-height: 2em;
+}
+
+  .content-box .scroll-content .text h3{
+    font-size: 35px;
+    font-weight: normal;
+    height: 92px;
+  }
+
+  /*用户评价*/
+  .user{
+    display: none;
+  }
+
+    /*学员评价*/
+    .student{
+     
+    }
+
+    #student-list-default{
+      width: 14px;
+      height: 14px;
+      background-color: #fff;
+      border: 2px solid rgb(2,179,228);
+      margin-top: 0;
+    }
+
+    .student .student-eval{
+      padding-top: 40px;
+      padding-bottom: 40px;
+      text-align: center;
+      line-height: 40px;
+    }
+
+    .student-eval .content{
+      height: 300px;
+      margin-top: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .student-eval .content .lunb-parent{
+      width:300%;
+      margin-top: 60px;
+      position: absolute;
+      left: 0;
+      transition: left 0.3s;
+    }
+
+    .student-eval .content .lunb{
+      width: 33.3%;
+      float: left;
+    }
+
+    .student-eval .content .lunb img{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+
+    .student-eval .content ul{
+      width: 80px;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      margin-left: -40px;
+    }
+
+    .student-eval .content li{
+      float: left;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #ccc;
+      margin-left: 10px;
+      margin-top: 2px;
+      cursor: pointer;
+    }
+
+
+
+    .student-eval .content a{
+      height: 100px;
+      width: 50px;
+      background-color: #f0f0f0;
+      opacity: 0.5;
+      position: absolute;
+      top: 100px;
+      font-size: 40px;
+      color: #ccc;
+      line-height: 100px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .student-eval .content a:hover{
+      opacity: 1;
+    }
+
+    .student-eval .content .left{left: 0}
+
+    .student-eval .content .right{right: 0}
+
+  /*企业认可*/
+  .enterprise{
+    
+  }
+
+  .enterprise .content{
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 400px;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .enterprise .content .box{ 
+    position: absolute;
+    bottom: 0;
+    min-width: 75em;
+  }
+  
+  .enterprise .content .box div{
+    float: left;
+    overflow: hidden;
+    width: 15em;
+  }
+
+  .enterprise .content .box div:hover >li{
+    display: block;
+    transition: display 1s;
+  }
+
+  .enterprise .content .box div li{
+    width: 13.75em;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    display: none;
+  }
+  .enterprise .content .box img{
+    width: 15em;
+    height: 300px;
+    cursor: pointer;
+  }
+
+  /*社会认可*/
+  .society .content{
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 400px;
+    text-align: center;
+    line-height: 40px;
+    min-width: 75em;
+  }
+  
+  .society .content .exhibition{ 
+    padding-left: 60px;
+    position: absolute;
+    bottom: 100px;
+  }
+
+  .society .content .exhibition div{
+    width: 340px;
+    height: 240px;
+    background: red;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+  }
+
+  .society .content .exhibition img{
+    width: 340px;
+    height: 180px;
+    cursor: pointer;
+  }
+
+/*课程大纲*/
+.curriculum{
+  display: none;
+  padding: 50px 0;
+}
+
+.curriculum .one{
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.curriculum .one h3{
+  text-align: center;
+}
+
+.curriculum .one .title {
+  width: 600px;
+  height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.curriculum .one .t1{background: rgba(255,114,147,1);}
+.curriculum .one .t2{background:#ff9a72;}
+.curriculum .one .t3{background:#64c769;}
+
+.curriculum .one button {
+    width: 108px;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    font-size: 12px;
+    border-radius: 3px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.curriculum .o1 button:last-child{
+  background: rgba(255,114,147,1);
+}
+.curriculum .o2 button:last-child{
+  background:#ff9a72;
+}
+
+.curriculum .o3 button:last-child{
+  background:#64c769;
+}
+
+
+.curriculum .one button:hover {
+  opacity: 0.6;
+}
+
+.curriculum .one table{
+  width: 600px;
+  border: 1px solid rgb(228,228,228);
+  border-collapse: collapse;
+}
+
+.curriculum .one table td{
+  padding: 10px;
+  font-size: 14px;
+  color: rgb(85,85,85);
+}
+
+.curriculum .one table tr td:first-child{
+  width: 100px;
+  text-align: center;
+}
+
+/*常见问题*/
+.problem{
+  display: none;
+}
+
+.problem .content{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.problem .content h3{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.problem .content >p{
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 40px;
+}
+
+.problem .content div{
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+.problem .content div span{
+  font-weight: bold;
+}
+
+.problem .content div p{
+  font-size: 15px;
+  color: #575757;
+  text-indent: 2em;
+}
+
+
+/*默认样式*/
+#lunb-list-default{
+  width: 17px;
+  height: 17px;
+  background-color: #fff;
+  border: 2px solid rgba(2,179,228,1);;
+  margin-top: 0;
+}
+
+
+
+/*页脚部分*/
+.wrap {
+  width: auto;
+  
+}
+footer {
+  background-color: #cbcdcf;
+  width: auto;
+  overflow: hidden;
+}
+footer {
+  background: #f4f4ef;
+}
+footer .wechat {
+  float: left;
+  padding: 50px 0px 50px 20%
+}
+.footer-list {
+  float: right;
+  padding: 50px 18% 50px 0px;
+}
+footer ul {
+  font-size: 20px;
+  line-height: 40px;
+  list-style: none;
+  color: #3b4249;
+  float: left;
+  padding: 0px 50px;
+}
+
+/*底部*/
+#footer {
+  background-color: #3b4249;
+  height: 80px;
+}
+#footer strong {
+  font-weight: normal;
+}
+#footer a {
+  color: #fff;
+  display:inline-block;
+}
+.copyright{
+  height: 80px;
+  line-height:80px;
+  color: white;
+  text-align: center;
+}
+blockquote, body, button, dd, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, input, keygen, legend, menu, ol, p, pre, select, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-list li a:hover {
+  color: #3879d9;
+}

@@ -1,0 +1,80 @@
+.catalog{
+	padding: 50px 50px;
+}
+
+.catalog a{
+	display: block;
+	float: left;
+	margin-bottom: 35px;
+	margin-right: 160px;
+	
+}
+
+.part{
+	height: 30px;
+	width: 360px;
+	border-radius: 30px;
+	background-color: #7d97ad;
+	box-shadow:  10px 10px 5px #888888;
+	padding: 30px 0;
+}
+
+.part:hover{
+	background-color: #2f5169;
+}
+
+.part p{
+	text-align: center;
+	font-size: 20px;
+	clear: #fff;
+}
+
+.catalog a:link{
+	color: #52593f;
+}
+
+.catalog a:visited{
+	text-decoration: none;
+	color: #77b900;
+}
+
+.other{
+	position: fixed;
+	top: 190px;
+	right: 10px;
+	height: 200px;
+	width: 120px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.other .prompt{
+	height: 150px;
+	width: 120px;
+	float: left;
+	background-color: #e9a72d;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.other span{
+	display: block;
+	white-space: pre-wrap;
+	margin: 10px 12px;
+}
+
+.other a{
+	height: 50px;
+	width: 120px;
+	float: left;
+	background-color:#34a853 ;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	color: #FFFFFF;
+}
+
+.other .button{
+	text-align: center;
+	line-height: 50px;
+}
+
