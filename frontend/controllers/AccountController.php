@@ -8,8 +8,10 @@
 
 namespace frontend\controllers;
 
+use yii\web\Controller;
+use frontend\models\Account;
 
-class AccountContrlller extends Controller
+class AccountController extends Controller
 {
     public $layout =false;
     public function Query()

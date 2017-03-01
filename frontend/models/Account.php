@@ -8,6 +8,8 @@
 
 namespace frontend\models;
 
+use yii\db\ActiveRecord;
+use frontend\models\Account;
 
 class Account extends ActiveRecord
 {

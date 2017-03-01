@@ -2,7 +2,6 @@
 namespace frontend\models;
 
 use yii\behaviors\TimestampBehavior;
-use yii\db\ActiveRecord;
 
 class Learned extends ActiveRecord
 {
