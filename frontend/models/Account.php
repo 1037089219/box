@@ -13,8 +13,24 @@ use frontend\models\Account;
 
 class Account extends ActiveRecord
 {
-    public static function tableName(){
+    public function Query(){
         retu
+    }
+
+    public function getAccontById(){
+
+    }
+
+    public function InsertAccont(){
+
+    }
+
+    public function UpdateAccont(){
+
+    }
+
+    public function DeleteAccountById(){
+
     }
 
 }
